@@ -1,12 +1,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=shadowsocksr-gfwlist
-PKG_VERSION:=3.0.6
-PKG_RELEASE:=f713aa981169d35ff9483b295d1209c35117d70c
+PKG_VERSION:=3.1.0
+PKG_RELEASE:=1797741458fd5f4223c2f23f46db4052c72abf0a
 
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION)-$(PKG_RELEASE).tar.gz
-PKG_SOURCE_URL:=https://github.com/shadowsocksr/shadowsocksr-libev.git
+PKG_SOURCE_URL:=https://github.com/SamuraiHeart7/shadowsocksr-libev-1.git
 PKG_SOURCE_VERSION:=$(PKG_RELEASE)
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)-$(PKG_RELEASE)
 
